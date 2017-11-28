@@ -298,7 +298,7 @@ public class Patient {
                String.format("%-15s", last_name)+
                String.format("%-12s", dob)+
                String.format("%-16s", ssn)+
-               String.format("%-32s", address)+
+               String.format("%-50s", address)+
                String.format("%-18s", getDiagnosis())+
                String.format("%-17s", getTreatment())+
                String.format("%-6s", getStatus())+
