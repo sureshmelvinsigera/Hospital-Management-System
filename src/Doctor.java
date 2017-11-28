@@ -82,11 +82,11 @@ public class Doctor {
                     String.format("%-15s", "Last Name") +
                     String.format("%-12s", "DOB") +
                     String.format("%-16s", "SSN") +
-                    String.format("%-32s", "Address") +
+                    String.format("%-50s", "Address") +
                     String.format("%-18s", "Diagnosis") +
                     String.format("%-15s", "Treatment") +
                     String.format("%-8s", "Status") +
-                    String.format("%-15s", "Staff") +
+                    String.format("%-15s", "Staff ID") +
                     String.format("%-10s", "Bed ID") +
                     String.format("%-10s", "Doctor Name"));
             for (int i = 0; i < patients.size(); i++) {
@@ -181,11 +181,11 @@ public class Doctor {
                         String.format("%-15s", "Last Name") +
                         String.format("%-12s", "DOB") +
                         String.format("%-16s", "SSN") +
-                        String.format("%-32s", "Address") +
+                        String.format("%-50s", "Address") +
                         String.format("%-18s", "Diagnosis") +
                         String.format("%-15s", "Treatment") +
                         String.format("%-8s", "Status") +
-                        String.format("%-15s", "Staff") +
+                        String.format("%-15s", "Staff ID") +
                         String.format("%-10s", "Bed ID") +
                         String.format("%-10s", "Doctor Name"));
                 while (result.next()) {
